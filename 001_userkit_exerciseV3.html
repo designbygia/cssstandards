@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .user {
+            width: 33.3%;
+            display: block;
+            float: left;
+        }
+
+        /* User Large */
+        .user-lg {
+            text-align: center;
+        }
+
+        .user-lg .user-avatar {
+            border-radius: 75px;
+            height: 75px;
+            width: 75px;
+            object-fit: cover;
+        }
+
+        .user-lg .user-name {
+            font-weight: 100;
+            font-size: 28px;
+            line-height: 34px;
+        }
+
+        .user-lg .user-title {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        /* User Medium */
+        .user-md {
+            overflow: hidden;
+        }
+
+        .user-md .user-avatar {
+            border-radius: 75px;
+            height: 32px;
+            width: 32px;
+            object-fit: cover;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .user-md .user-name {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+        }
+
+        .user-md .user-title {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <section class="container">
+
+        <section class="user user-lg">
+            <img src="./uximg/anna.jpeg" alt="User Image" class="user-avatar">
+            <h5 class="user-name">Anna Black</h5>
+            <div class="user-title">Remodeling Consultant</div>
+        </section>
+
+        <section class="user user-md">
+            <img src="./uximg/anna.jpeg" alt="User Image" class="user-avatar">
+            <h5 class="user-name">Anna Black</h5>
+            <div class="user-title">Remodeling Consultant</div>
+        </section>
+
+        <section class="user user-sm">
+            <img src="./uximg/anna.jpeg" alt="User Image" class="user-avatar">
+            <h5 class="user-name">Anna Black</h5>
+            <div class="user-title">Remodeling Consultant</div>
+        </section>
+
+        <section class="user-monogram">
+            <section class="monogram">AB</section>
+            <div class="user-title">Remodeling Consultant</div>
+        </section>
+
+
+    </section>
+
+</body>
+
+</html>
